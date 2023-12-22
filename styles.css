@@ -42,7 +42,8 @@
 
 .logo-text{
     margin-left:-1.2rem;
-    font-size:28px;
+    font-size:31px;
+    font: bold;
 }
 
 .nav-items{
@@ -177,7 +178,7 @@ a{
   }
 
   .user-image img{
-    z-index:-9;
+    z-index:-5;
   }
 
   @keyframes scaleImage {
@@ -315,6 +316,7 @@ a{
     width:90%;
     height:550px;
     background-image: url(./images/projects/Project1.png);
+    
     background-size: cover;
     /* background-repeat: no-repeat; */
     position:relative;
@@ -458,10 +460,7 @@ a{
   #project3{
     background-image: url(./images/projects/Project3.png);
   }
-  #project4{
-    margin-left:120px;
-    background-image: url(./images/projects/Project4.png);
-  }
+  
 
   @media (max-width:1300px) {
     .page-header {
@@ -503,9 +502,7 @@ a{
     #project2 {
       margin-left: 0;
     }
-    #project4 {
-      margin-left: 0;
-    }
+   
     .project-skill-container {
       width: 100%;
     }
